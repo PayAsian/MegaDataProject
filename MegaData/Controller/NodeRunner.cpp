@@ -6,4 +6,12 @@
 //  Copyright © 2017 Trevino, Peyton. All rights reserved.
 //
 
-#include <stdio.h>
+#include "DataStructureController.hpp"
+
+int main()
+{
+    DataStructureController * app = new DataStructureController();
+    app->start();
+    
+    return 0;
+}
