@@ -13,6 +13,7 @@ class DataStructureController
 {
 private:
     void testIntArray();
+
 public:
     DataStructureController();
     void start();
